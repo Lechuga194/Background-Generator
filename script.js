@@ -29,6 +29,7 @@ function getRandomColor() {
 boton.addEventListener("click",function(){
   var c1 = getRandomColor();
   var c2 = getRandomColor();
+  console.log("Estoy aprendiendo git, esta es la rama test")
   cambiaFondo2(c1,c2);
 })
 
