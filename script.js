@@ -34,3 +34,5 @@ boton.addEventListener("click",function(){
 
 color1.addEventListener("input",cambiaFondo);
 color2.addEventListener("input",cambiaFondo);
+
+console.log("Hola");
