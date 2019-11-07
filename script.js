@@ -16,7 +16,7 @@ function cambiaFondo2(color1, color2){
    actual.textContent = body.style.background;
 }
 
-function getRandomColor() {
+function colorAleatorio() {
   var letters = '0123456789ABCDEF';
   var color = '#';
   for (var i = 0; i < 6; i++) {
@@ -27,8 +27,8 @@ function getRandomColor() {
 
 
 boton.addEventListener("click",function(){
-  var c1 = getRandomColor();
-  var c2 = getRandomColor();
+  var c1 = colorAleatorio();
+  var c2 = colorAleatorio();
   console.log("Estoy aprendiendo git, esta es la rama test")
   cambiaFondo2(c1,c2);
 })
